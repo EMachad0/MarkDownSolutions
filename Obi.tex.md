@@ -38,6 +38,7 @@ int main() {
 }
 ```
 
+</details>
 <details>
 <summary>Python3</summary>
 <br>
@@ -52,7 +53,6 @@ else if t == 1:
 else if t == 2:
 	print((n * (n-1) * (n-2))/6)
 ```
-</details>
 
 </details>
 
