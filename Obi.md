@@ -1,8 +1,12 @@
-# Solução Xadrez Aleatório
+ # Solução Xadrez Aleatório
+
+<details>
+<br>
+
 Devemos imprimir a quantidade de estados válidos, observe que um estado difere de outro baseado na posição do rei e torres, assim, ignorando os peões, a quantidade de estados validos é a quantidade de maneiras diferentes que podemos posicionar o rei e as torres, dito isso, vamos começar dividimos o problema em 3 casos:
- -  **Nenhuma torre**:
+- **Nenhuma torre**:
 	Nesse caso, apenas podemos colocar o rei em uma posição qualquer, como temos $N$ posições, teremos $N$ estados válidos.
--  **Uma torre**:
+- **Uma torre**:
 	Nesse caso, colocando o rei em uma posição qualquer, teremos $N-1$ posições para a torre, assim a quantidade de estados validos é $N * (N-1)$.
 	Observe que $N * N-1 = \frac{N!}{(N-2)!} =  A^{N}_{2}$, ou seja, para casos assim, basta o arranjo da quantidade de espaços pela quantidade de peças. (Importante para o terceiro caso).
 - **Duas torres**:
@@ -13,11 +17,12 @@ Devemos imprimir a quantidade de estados válidos, observe que um estado difere 
 	Logo o número de casos possiveis é $C^{N}_{3} = \frac{N!}{3! * (N-3)!} = \frac{N * (N-1) * (N-2)}{6}$.
 
 ### Código:
+
 <details>
 <summary>C++</summary>
 <br>
-```` C++
-  
+	
+``` C++
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -31,5 +36,9 @@ int main() {
     else if (t == 1) cout << n * (n-1) << endl;
     else if (t == 2) cout << (n * (n-1) * (n-2))/6 << endl;
 }
+```
+
+</details>
+
 </details>
 
