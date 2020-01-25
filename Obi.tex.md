@@ -7,8 +7,8 @@ Devemos imprimir a quantidade de estados válidos, observe que um estado difere 
 - **Nenhuma torre**:
 	Nesse caso, apenas podemos colocar o rei em uma posição qualquer, como temos $N$ posições, teremos $N$ estados válidos.
 - **Uma torre**:
-	Nesse caso, colocando o rei em uma posição qualquer, teremos $N-1$ posições para a torre, assim a quantidade de estados validos é $$N * (N-1)$$.
-	Observe que $N * N-1 = \frac{N!}{(N-2)!} =  A^{N}_{2}$, ou seja, para casos assim, basta o arranjo da quantidade de espaços pela quantidade de peças. (Importante para o terceiro caso).
+	Nesse caso, colocando o rei em uma posição qualquer, teremos $N-1$ posições para a torre, assim a quantidade de estados validos é $N * (N-1)$.
+	Observe que $N * (N-1) = \frac{N!}{(N-2)!} =  A^{N}_{2}$, ou seja, para casos assim, basta o arranjo da quantidade de espaços pela quantidade de peças. (Importante para o terceiro caso).
 - **Duas torres**:
 	Nesse caso, poderiamos continuar a ideia do caso anterior e supor que a quantidade de estados é $A^{N}_{3}$, no entanto temos a restrição que o rei deve estar entre as duas torre.
 	Escolheremos uma das permutações possiveis dentro do $A^{N}_{3}$, por exemplo $a, b, c$ tal que  $0 \le a, b, c < N$, observe que $a, b, c$ não estão nescessariamente em ordem, no entanto escolheremos o menor e o maior valor para serem colocadas as torres e o outro valor será colocado o rei, assim, satisfazemos a condição.
@@ -37,6 +37,22 @@ int main() {
     else if (t == 2) cout << (n * (n-1) * (n-2))/6 << endl;
 }
 ```
+
+<details>
+<summary>Python3</summary>
+<br>
+
+``` python
+n, t = map(int, input().split()
+
+if t == 0:
+	print(n)
+else if t == 1:
+	print(n * (n-1))
+else if t == 2:
+	print((n * (n-1) * (n-2))/6)
+```
+</details>
 
 </details>
 
