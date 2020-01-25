@@ -7,7 +7,7 @@ Devemos imprimir a quantidade de estados válidos, observe que um estado difere 
 - **Nenhuma torre**:
 	Nesse caso, apenas podemos colocar o rei em uma posição qualquer, como temos $N$ posições, teremos $N$ estados válidos.
 - **Uma torre**:
-	Nesse caso, colocando o rei em uma posição qualquer, teremos $N-1$ posições para a torre, assim a quantidade de estados validos é $N * (N-1)$.
+	Nesse caso, colocando o rei em uma posição qualquer, teremos $N-1$ posições para a torre, assim a quantidade de estados validos é $$N * (N-1)$$.
 	Observe que $N * N-1 = \frac{N!}{(N-2)!} =  A^{N}_{2}$, ou seja, para casos assim, basta o arranjo da quantidade de espaços pela quantidade de peças. (Importante para o terceiro caso).
 - **Duas torres**:
 	Nesse caso, poderiamos continuar a ideia do caso anterior e supor que a quantidade de estados é $A^{N}_{3}$, no entanto temos a restrição que o rei deve estar entre as duas torre.
