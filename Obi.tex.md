@@ -44,7 +44,7 @@ int main() {
 <br>
 
 ``` python
-n, t = map(int, input().split()
+n, t = map(int, input().split())
 
 if t == 0:
 	print(n)
