@@ -20,9 +20,9 @@ Devemos imprimir a quantidade de estados válidos, observe que um estado difere 
 	
 - **Duas torres**:
 
-	Nesse caso, poderiamos continuar a ideia do caso anterior e supor que a quantidade de estados é $A^{N}_{3}$, no entanto temos a restrição que o rei deve estar entre as duas torre.
+	Nesse caso, poderiamos continuar a ideia do caso anterior e supor que a quantidade de estados é $A^{N}_{3}$, no entanto temos a restrição que o rei deve estar entre as duas torres.
 	
-	Escolheremos uma das permutações possiveis dentro do $A^{N}_{3}$, por exemplo $a, b, c$ tal que  $0 \le a, b, c < N$, observe que $a, b, c$ não estão nescessariamente em ordem, no entanto escolheremos o menor e o maior valor para serem colocadas as torres e o outro valor será colocado o rei, assim, satisfazemos a condição.
+	Escolheremos uma das permutações possiveis dentro do $A^{N}_{3}$, por exemplo $a, b, c$ tal que  $0 \le a, b, c < N$, observe que $a, b, c$ não estão necessariamente em ordem, no entanto escolheremos o menor e o maior valor para serem colocadas as torres e o outro valor será colocado o rei, assim, satisfazemos a condição.
 	
 	No entanto o que difere a permutação acima de $a, c, b$? absolutamente nada, o maior e o menor número, que são os mesmos, ainda serão torres e o outro número o rei. (observe que as duas permutações são validas e diferentes dentro do arranjo devido a ordem diferente dos fatores).
 	
