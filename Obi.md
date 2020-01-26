@@ -24,11 +24,14 @@ Devemos imprimir a quantidade de estados válidos, observe que um estado difere 
 	
 	Escolheremos uma das permutações possiveis dentro do <img src="/tex/7aa64964a527ae5da6a95a0d52d8c3d3.svg?invert_in_darkmode&sanitize=true" align=middle width=23.974960349999986pt height=27.6567522pt/>, por exemplo <img src="/tex/c7511ce56cd9c8457f7a29917f39df8d.svg?invert_in_darkmode&sanitize=true" align=middle width=37.46952164999999pt height=22.831056599999986pt/> tal que  <img src="/tex/a0df3e69d81102c043d9e2195f1242e2.svg?invert_in_darkmode&sanitize=true" align=middle width=104.52398219999998pt height=22.831056599999986pt/>, observe que <img src="/tex/c7511ce56cd9c8457f7a29917f39df8d.svg?invert_in_darkmode&sanitize=true" align=middle width=37.46952164999999pt height=22.831056599999986pt/> não estão necessariamente em ordem, no entanto escolheremos o menor e o maior valor para serem colocadas as torres e o outro valor será colocado o rei, assim, satisfazemos a condição.
 	
-	No entanto o que difere a permutação acima de <img src="/tex/e3a0397c492933cfe6ce5a1d9dc585db.svg?invert_in_darkmode&sanitize=true" align=middle width=37.46952164999999pt height=22.831056599999986pt/>? absolutamente nada, o maior e o menor número, que são os mesmos, ainda serão torres e o outro número o rei. (observe que as duas permutações são validas e diferentes dentro do arranjo devido a ordem diferente dos fatores).
 	
-	Portanto, basta eliminarmos as permutações nos quais os números se repetem, o que é feito pela combinação.
-    
-	Logo o número de casos possiveis é <img src="/tex/c9b1b58e3ec66037be0f2879e47a7432.svg?invert_in_darkmode&sanitize=true" align=middle width=237.23312414999998pt height=33.20539859999999pt/>.
+ 	 No entanto, se escolhermos qualquer permutação dos valores {<img src="/tex/c7511ce56cd9c8457f7a29917f39df8d.svg?invert_in_darkmode&sanitize=true" align=middle width=37.46952164999999pt height=22.831056599999986pt/>}, por exemplo {<img src="/tex/e3a0397c492933cfe6ce5a1d9dc585db.svg?invert_in_darkmode&sanitize=true" align=middle width=37.46952164999999pt height=22.831056599999986pt/>}, obteremos os mesmos restultados, o menor e o maior valor serão as torres e o outro valor será o rei, assim, estamos contando o mesmo estado válido diversas vezes.
+ 	 
+	Portanto, basta eliminarmos as permutações nos quais os números se repetem, como são 3 peças, temos <img src="/tex/85913a56dd00b08a2a4c65184b3d106f.svg?invert_in_darkmode&sanitize=true" align=middle width=42.92227334999999pt height=22.831056599999986pt/> permutações repetidas de cada permutação possivel, basta então dividir o arranjo por 6.
+	
+	Logo o número de casos possiveis é <img src="/tex/8e180176df5d47ca52e86d8f8c9aaac2.svg?invert_in_darkmode&sanitize=true" align=middle width=230.5368813pt height=37.92139230000001pt/>.
+
+	Note que <img src="/tex/4831d697d5774b209c2ea98e7921a804.svg?invert_in_darkmode&sanitize=true" align=middle width=68.90635784999999pt height=37.92139230000001pt/>, pois a combinação tem o papel de tirar as permutações repetidas do arranjo.
 
 ### Código:
 
