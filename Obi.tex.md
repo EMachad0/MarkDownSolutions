@@ -24,11 +24,14 @@ Devemos imprimir a quantidade de estados válidos, observe que um estado difere 
 	
 	Escolheremos uma das permutações possiveis dentro do $A^{N}_{3}$, por exemplo $a, b, c$ tal que  $0 \le a, b, c < N$, observe que $a, b, c$ não estão necessariamente em ordem, no entanto escolheremos o menor e o maior valor para serem colocadas as torres e o outro valor será colocado o rei, assim, satisfazemos a condição.
 	
-	No entanto o que difere a permutação acima de $a, c, b$? absolutamente nada, o maior e o menor número, que são os mesmos, ainda serão torres e o outro número o rei. (observe que as duas permutações são validas e diferentes dentro do arranjo devido a ordem diferente dos fatores).
 	
-	Portanto, basta eliminarmos as permutações nos quais os números se repetem, o que é feito pela combinação.
-    
-	Logo o número de casos possiveis é $C^{N}_{3} = \frac{N!}{3! * (N-3)!} = \frac{N * (N-1) * (N-2)}{6}$.
+ 	 No entanto, se escolhermos qualquer permutação dos valores {$a, b, c$}, por exemplo {$a, c, b$}, obteremos os mesmos restultados, o menor e o maior valor serão as torres e o outro valor será o rei, assim, estamos contando o mesmo estado válido diversas vezes.
+ 	 
+	Portanto, basta eliminarmos as permutações nos quais os números se repetem, como são 3 peças, temos $3! = 6$ permutações repetidas de cada permutação possivel, basta então dividir o arranjo por 6.
+	
+	Logo o número de casos possiveis é $\frac{A^{N}_{3}}{6} = \frac{N!}{6 * (N-3)!} = \frac{N * (N-1) * (N-2)}{6}$.
+
+	Note que $\frac{A^{N}_{3}}{6} = C^{N}_{3}$, pois a combinação tem o papel de tirar as permutações repetidas do arranjo.
 
 ### Código:
 
