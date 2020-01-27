@@ -82,13 +82,9 @@ else if t == 2:
 
 Começando pela Ana:
 
-Para resolver basta notarmos que, com 3 cadeiras, a cada 3 cadeiras ela da uma volta e volta para 
+Para resolver basta notarmos que, com 3 cadeiras, a cada 3 cadeiras ela da uma volta e volta para posição 0, ou seja, a cadeira a qual ela vai sentar será <img src="/tex/a204ed0a7c28aada4c044c6ffe6d92f5.svg?invert_in_darkmode&sanitize=true" align=middle width=34.24668059999999pt height=24.65753399999998pt/>.
 
-posição 0, ou seja, a cadeira a qual ela vai sentar será <img src="/tex/a204ed0a7c28aada4c044c6ffe6d92f5.svg?invert_in_darkmode&sanitize=true" align=middle width=34.24668059999999pt height=24.65753399999998pt/>.
-
-Para Beatriz a ideia é a mesma, ela sentara na cadeira <img src="/tex/e7d9b8078b41d41936a28d376454b1c5.svg?invert_in_darkmode&sanitize=true" align=middle width=35.211285449999984pt height=24.65753399999998pt/>, a menos que a cadeira ja esteja ocupada, nesse 
-
-caso, sentara na cadeira <img src="/tex/e10baf53a81ae0da1438688465be87c6.svg?invert_in_darkmode&sanitize=true" align=middle width=76.30711934999998pt height=24.65753399999998pt/>.
+Para Beatriz a ideia é a mesma, ela sentara na cadeira <img src="/tex/e7d9b8078b41d41936a28d376454b1c5.svg?invert_in_darkmode&sanitize=true" align=middle width=35.211285449999984pt height=24.65753399999998pt/>, a menos que a cadeira ja esteja ocupada, nesse caso, sentara na cadeira <img src="/tex/e10baf53a81ae0da1438688465be87c6.svg?invert_in_darkmode&sanitize=true" align=middle width=76.30711934999998pt height=24.65753399999998pt/>.
 
 Assim, o resultado é o valor diferente dos dois.
 
