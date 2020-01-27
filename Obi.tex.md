@@ -94,7 +94,7 @@ Assim, o resultado é o valor diferente dos dois.
 <summary>Python3</summary>
 <br>
 
-```
+``` python
 a = int(input())  
 b = int(input())  
   
