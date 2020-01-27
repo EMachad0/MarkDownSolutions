@@ -82,13 +82,9 @@ else if t == 2:
 
 Começando pela Ana:
 
-Para resolver basta notarmos que, com 3 cadeiras, a cada 3 cadeiras ela da uma volta e volta para 
+Para resolver basta notarmos que, com 3 cadeiras, a cada 3 cadeiras ela da uma volta e volta para posição 0, ou seja, a cadeira a qual ela vai sentar será $A \% 3$.
 
-posição 0, ou seja, a cadeira a qual ela vai sentar será $A \% 3$.
-
-Para Beatriz a ideia é a mesma, ela sentara na cadeira $B \% 3$, a menos que a cadeira ja esteja ocupada, nesse 
-
-caso, sentara na cadeira $(B+1) \% 3$.
+Para Beatriz a ideia é a mesma, ela sentara na cadeira $B \% 3$, a menos que a cadeira ja esteja ocupada, nesse caso, sentara na cadeira $(B+1) \% 3$.
 
 Assim, o resultado é o valor diferente dos dois.
 
