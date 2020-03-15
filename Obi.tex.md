@@ -1,4 +1,4 @@
-Prova:
+Prova OBI 2019:
 https://olimpiada.ic.unicamp.br/static/extras/obi2019/provas/ProvaOBI2019_f3pu.pdf
 
 # Solução Xadrez Aleatório
