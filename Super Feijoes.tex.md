@@ -9,7 +9,7 @@ Na primeira linha seguirão quatro inteiros, $C1$, $C2$, $C3$ e $C4$ separados p
 Em seguida, segue um numero $N$, o numero de trocas realizadas. As proximas $N, N \le 10⁵$ linhas contem dois inteiros $i, j$, $1 \le i, j \le 4$ representando que o  $i$-ésimo copo foi trocado de lugar com o  $j$-ésimo copo.
 Haverá sempre exatamente um copo com o feijão.
 
-### Saida
+### Saida :
 Baseando-se nas trocas feitas, imprima um numero $i$, indicando ao final das trocas o feijoa esta no  $i$-ésimo copo.
 Haverá sempre exatamente um copo com o feijão.
 
