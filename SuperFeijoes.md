@@ -11,7 +11,8 @@ Em seguida, segue um numero <img src="/tex/f9c4988898e7f532b9f826a75014ed3c.svg?
 Haverá sempre exatamente um copo com o feijão.
 
 ### Saida
-Baseando-se nas trocas feitas, imprima um numero <img src="/tex/77a3b857d53fb44e33b53e4c8b68351a.svg?invert_in_darkmode&sanitize=true" align=middle width=5.663225699999989pt height=21.68300969999999pt/>, indicando ao final das trocas o feijoa esta no  <img src="/tex/77a3b857d53fb44e33b53e4c8b68351a.svg?invert_in_darkmode&sanitize=true" align=middle width=5.663225699999989pt height=21.68300969999999pt/>-ésimo copo.
+Baseando-se nas trocas feitas, imprima um numero <img src="/tex/77a3b857d53fb44e33b53e4c8b68351a.svg?invert_in_darkmode&sanitize=true" align=middle width=5.663225699999989pt height=21.68300969999999pt/>, indicando que ao final das trocas o feijão esta no  <img src="/tex/77a3b857d53fb44e33b53e4c8b68351a.svg?invert_in_darkmode&sanitize=true" align=middle width=5.663225699999989pt height=21.68300969999999pt/>-ésimo copo.
+
 Haverá sempre exatamente um copo com o feijão.
 
 | Exemplo de entrada | Exemplo de entrada |
