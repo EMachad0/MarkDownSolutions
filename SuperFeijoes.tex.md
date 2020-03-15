@@ -11,7 +11,8 @@ Em seguida, segue um numero $N$, o numero de trocas realizadas. As proximas $N, 
 Haverá sempre exatamente um copo com o feijão.
 
 ### Saida
-Baseando-se nas trocas feitas, imprima um numero $i$, indicando ao final das trocas o feijoa esta no  $i$-ésimo copo.
+Baseando-se nas trocas feitas, imprima um numero $i$, indicando que ao final das trocas o feijão esta no  $i$-ésimo copo.
+
 Haverá sempre exatamente um copo com o feijão.
 
 | Exemplo de entrada | Exemplo de entrada |
