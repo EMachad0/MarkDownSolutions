@@ -1,6 +1,6 @@
 # Super Feijoes
 
-Polycarp é fã de shows de mágica, ele já foi em tantos que conhece todos os truques. Porém ele sempre se perde quando o mágico resolve fazer o truque dos feijões, no qual ele coloca um feijão embaixo de um dos quatro copos e os embaralha para perguntar à plateia onde o feijão foi parar. 
+Omar é fã de shows de mágica, ele já foi em tantos que conhece todos os truques. Porém ele sempre se perde quando o mágico resolve fazer o truque dos feijões, no qual ele coloca um feijão embaixo de um dos quatro copos e os embaralha para perguntar à plateia onde o feijão foi parar. 
 
 Por isso ele resolveu pedir sua ajuda pra criar um programa que dado a posição inicial do feijão e todas as trocas realizadas, diga em qual copo o feijão está no final do truque.
 
