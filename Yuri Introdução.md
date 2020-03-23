@@ -12,7 +12,7 @@ Dito isso, o que fazemos no Telegram?
 
 Temos um bot, Yuri que, dia sim dia não, cria um contest com dez probleminhas do [Codeforces](https://codeforces.com/) e deixa fixado aqui no telegram, alguns fáceis e outros não tao fáceis e a gente compete pra ver quem resolve mais.
 
-Tem uma explicação mais detalhada de como participar lá no site: [bruteudesc/Yuri](http://bruteudesc.com/)
+Tem uma explicação mais detalhada de como participar lá no site: [bruteudesc/Yuri](http://bruteudesc.com/yuri/)
 
 mas basicamente, pra participar dos contests do bot, só criar uma conta no [Codeforces](https://codeforces.com/), depois, qui no telegram, da /register "seu nome do cf", e ai ja ta participando e é só resolve os probleminhas 
 
