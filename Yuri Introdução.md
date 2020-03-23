@@ -14,5 +14,5 @@ Primeiramente exite um site gringo, [Codeforces](https://codeforces.com/), no qu
 
 Temos um bot, Yuri que, dia sim dia não, cria um contest com dez probleminhas, alguns fáceis e outros não tao fáceis e a gente compete pra ver quem resolve mais.
 
-Como faço para participar?
-Primeiramente, precisa se registrar no [Codeforces](https://codeforces.com/)
+Tem uma explicação melhor de como participar lá no site: "link do post"
+
